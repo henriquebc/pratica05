@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>Pratica05</title>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!--              -->
+    <nav class="navbar navbar-expand-lg bg-success text-white">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#">
+                <div class="d-flex">
+                    <img  class="img-fluid " style="width: 100px;" src="img/logo.png" alt="">
+                    <p class="my-auto mx-0 text-white ">Chesse <br> Company </p>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse fs-2 " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Sobre-nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Cadastre-se</a>
+                    </li>
+                    
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- fim nav -->
+    <!-- layout -->
+    <div class="mt-1">
+        <img class="img-fluid" style="width: 1500px; height: 500px;" src="img/queijo.jpg" alt="">
+    </div>
+    <!-- fim layout -->
+    <!-- secção sobre empresa -->
+    <section id="sobre-nos" class="container text-center mt-3">
+        <div class="row">
+            <div class="col-12 col-sm-8 col-xs-8">
+                <div id="sobre-empres">
+                    <h2 class="bg-success">Nossa História</h2>
+                    <!-- card -->
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4  bg-success">
+                                <img src="img/logo.png" class="img-fluid rounded-start" >
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text">Era uma vez uma pequena queijaria localizada em uma cidadezinha no interior do país. A família que a administrava produzia queijos artesanais com receitas passadas de geração em geração. Apesar da concorrência com grandes indústrias de laticínios, a queijaria mantinha-se fiel à tradição, utilizando apenas ingredientes naturais e técnicas manuais de produção. Com o tempo, a família investiu em tecnologia para aprimorar a produção sem abrir mão da tradição e os queijos da queijaria passaram a ser exportados para outros países. A história da pequena queijaria mostra que é possível manter as raízes da tradição e, ao mesmo tempo, inovar e conquistar novos mercados.</p>
+                                    <a class="btn btn-success" href="#" role="button">DOWLOAD</a>
+                                    <a class="btn btn-success" href="#" role="button">COMPARTILHAR</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fim card -->
+                </div>
+                <!-- fim sobre empresa -->
+                <!-- produtos -->
+                <div id="produtos" class="mb-3">
+                    <h2 class="bg-success">Nossos Produtos</h2>
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <div class="card">
+                                <img src="img/tipo-queijo01.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Queijo parmesão</h5>
+                                    <p class="card-text">Produzido com todo o cuidado e tradição, nosso Parmesão é feito a partir do leite de vacas selecionadas, seguindo as técnicas artesanais italianas.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="card">
+                                <img src="img/queijo-02.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Queijo fresco</h5>
+                                    <p class="card-text">Produzido com todo o cuidado e tradição, nosso Parmesão é feito a partir do leite de vacas selecionadas, seguindo as técnicas artesanais italianas.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="card">
+                                <img src="img/queijo-04.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Queijo mussarela</h5>
+                                    <p class="card-text">Produzido com todo o cuidado e tradição, nosso Parmesão é feito a partir do leite de vacas selecionadas, seguindo as técnicas artesanais italianas.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- fim produtos -->
+                <div id="atencao" class="m-2 border border-danger">
+                    <h2 class="text-danger">ATENÇÃO!!</h2>
+                    <p class="m-2">Atenção! Verifique sempre as opções de frete disponíveis ao comprar seus queijos online. Algumas opções podem ter prazos de entrega maiores e outras podem ser mais rápidas, mas com valores mais elevados. Certifique-se de escolher a opção que melhor atende às suas necessidades para receber seus queijos frescos e saborosos no prazo desejado.</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-xs-4 mb-2">
+                <h2 class="bg-success">Processo de produção</h2>
+                <iframe id="video-producao"  style="width: 400px; height: 300px;"  src="https://www.youtube.com/embed/m5blxi1H0B0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+                <a class="btn btn-success" href="#" role="button">COMPARTILHAR</a>
+                <h2 class="bg-success mt-2 mb-3">VINHOS</h2>
+                <div>
+                    <p><img src="img/vinho.png" width="40px" alt=""><a href="#" style="text-decoration: none; color: blueviolet;">Vinho tinto</a></p>
+                    <p><img src="img/vinho.png" width="40px" alt=""><a href="#" style="text-decoration: none; color: blueviolet;">Vinho branco</a></p>
+                    <p><img src="img/vinho.png" width="40px" alt=""><a href="#" style="text-decoration: none; color: blueviolet;">Vinho rosé</a></p>
+                    <p><img src="img/vinho.png" width="40px" alt=""><a href="#" style="text-decoration: none; color: blueviolet;">Vinho licoroso</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fim secção sobre empresa -->
+    <section id="passos" class="m-2 text-center">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title text-success">1° Passo</h5>
+                        <p class="card-text">Produzido com todo o cuidado e tradição, nosso Parmesão é feito a partir do leite de vacas selecionadas, seguindo as técnicas artesanais italianas.</p>
+                        <img src="img/local-na-rede-internet.png"  width="100px">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <div class="card-body ">
+                        <h5 class="card-title text-success">2° Passo</h5>
+                        <p class="card-text">Realize o cadastro e aceite a comfirmação que chegara´ pelo e-mail.</p>
+                        <img src="img/produtos.png"  width="100px">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <div class="card-body ">
+                        <h5 class="card-title text-success">3° Passo</h5>
+                        <p class="card-text">Após finalizar a compra informe o endereço e ignore o frete.</p>
+                        <img src="img/caminhao-de-comida.png"  width="100px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fim passo -->
+    <!-- formulario -->
+    <section id="formulario" class="my-3">
+        <form class="m-4">
+            <h2 class="bg-success text-white text-center">Crie a sua conta</h2>
+            <div class="mb-3 fs-3">
+                <label for="exampleInputName" class="form-label">Nome completo</label>
+                <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
+              </div>
+            <div class="mb-3 fs-3">
+              <label for="exampleInputEmail1" class="form-label">Digte o seu e-mail</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3 fs-3">
+              <label for="exampleInputPassword1" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 fs-3">
+                <label for="exampleInputPassword1" class="form-label">Comfirma senha</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+            
+            <button type="submit" class="btn btn-success">Comfirmar</button>
+          </form>
+    </section>
+    <!-- fim do formulário -->
+    <section id="avaliacao" class="m-2">
+        <h3 class="bg-success text-white text-center">AVALIAÇÕES RECENTES</h3>
+        <div class="row">
+            <div class="col-12 col-md-4 p-2">
+                <div class="d-flex">
+                    <img src="img/icone-usuário.png" class="w-25" alt="">
+                    <h3 class="mx-auto my-auto">Benjamin Westwood</h3>
+                </div>
+                <p class="p-2">Eu tive a oportunidade de experimentar o queijo e devo dizer que minha experiência foi mediana. O sabor era razoável, não muito marcante, mas também não desagradável. A textura era firme, porém um pouco seca, o que não me surpreendeu. Em termos de qualidade, estava dentro das expectativas, mas não se destacou em relação a outros queijos que já provei.</p>
+                <div class="text-center">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>10/03/2023
+                </div>
+            </div>
+            <div class="col-12 col-md-4 p-2">
+                <div class="d-flex">
+                    <img src="img/icone-usuário.png" class="w-25" alt="">
+                    <h3 class="mx-auto my-auto">Maya Sullivan</h3>
+                </div>
+                <p class="p-2">O queijo mussarela em questão é de qualidade satisfatória, porém, não apresentou um sabor muito marcante. Além disso, a textura pode ser um pouco seca e dura, o que pode não agradar a todos os consumidores. No entanto, é uma opção interessante para quem busca um produto de preço acessível e com boa durabilidade.</p>
+                <div class="text-center">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>10/03/2023
+                </div>
+            </div>
+            <div class="col-12 col-md-4 p-2">
+                <div class="d-flex">
+                    <img src="img/icone-usuário.png" class="w-25" alt="">
+                    <h3 class="mx-auto my-auto">Ethan Montgomery</h3>
+                </div>
+                <p class="p-2">O queijo parmesão é simplesmente incrível! Sua textura cremosa derrete na boca, liberando um sabor suave e equilibrado que é ao mesmo tempo delicado e delicioso. Fiquei impressionado com a qualidade dos ingredientes utilizados na produção deste queijo. Recomendo fortemente este produto para todos os amantes de queijo. Experimente e surpreenda-se!</p>
+                <div class="text-center">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>10/03/2023
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-success">Carregar mais avaliações</button>
+    </section>
+    <!-- fim avaliações -->
+    <!-- novidades -->
+    <section id="novidades" class="m-2">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h3 class="bg-success text-white px-1">Novidades</h3>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/novidade-1.jpg" class="img-fluid rounded-start" >
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Produção reconhecida</h5>
+                                <p class="card-text">"Certified Cheese Professional" (CCP) é uma certificação concedida pela American Cheese Society (ACS) para profissionais que demonstraram conhecimento e habilidades especializadas em todos os aspectos do queijo, incluindo fabricação, seleção, armazenamento, corte e emparelhamento com alimentos e bebidas. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/novidae-2.jpg" class="img-fluid rounded-start" >
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Prêmiação regional</h5>
+                                <p class="card-text">As premiações regionais de queijo podem funcionar de diferentes maneiras, dependendo da organização que a realiza. Em geral, são competições que têm como objetivo destacar os melhores queijos produzidos em uma determinada região. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/novidade-3.jpg" class="img-fluid rounded-start" >
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Camellia sinensis em queijos</h5>
+                                <p class="card-text">Algumas variações de queijos podem ser aromatizadas com ervas e chás, incluindo a Camellia sinensis. Por exemplo, é possível utilizar o chá verde para aromatizar queijos frescos ou queijos de cabra, criando um sabor diferente e interessante.Além disso, a Camellia sinensis pode ser utilizada em harmonizações de queijos com chás, criando combinações únicas e interessantes para apreciadores de queijos e chás. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+
+            </div>
+            <div class="col-12 col-md-6">
+                <h3 class="bg-success text-white px-1">Sobre</h3>
+                <p>O site de divulgação de queijos é um espaço online onde os apaixonados por queijos podem encontrar informações sobre diversos tipos de queijos, incluindo suas origens, sabores, aromas, texturas e harmonizações com outros alimentos e bebidas. No site, os usuários podem navegar por diferentes categorias de queijos, como queijos frescos, queijos curados, queijos azuis, queijos de cabra, entre outros, e também podem ler avaliações e recomendações de especialistas em queijos. Além disso, o site pode oferecer conteúdo relacionado a eventos de degustação de queijos, notícias sobre a indústria de queijos e receitas que incluem queijos como ingrediente principal. O objetivo do site é fornecer aos amantes de queijo uma fonte confiável de informações para ajudá-los a descobrir novos e deliciosos tipos de queijos para experimentar.</p>
+                <h3 class="bg-success text-white px-1">EDITORIAL</h3>
+                <h3><i class="bi bi-person-lines-fill"></i>Redação: Francisco Henrique</h3>
+                <h3><i class="bi bi-person-lines-fill"></i>Pesquisa: Francisco Henrique</h3>
+                <h3><i class="bi bi-person-lines-fill"></i>Gerente geral: Francisco Henrique</h3>
+
+                <h3 class="bg-success text-white px-1 mt-3">REDES SOCIAIS</h3>
+                <div class="text-center">
+                    <h2>a<i class="bi bi-facebook"></i>   <i class="bi bi-instagram"></i>   <i class="bi bi-twitter"></i></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fim novidades -->
+    <section id="noticias">
+        <div class="row m-2">
+            <div class="col-12 col-md-4 border border-success">
+                <h2 class="bg-success text-center text-white">BENEFICIOS DO QUEIJO PARA SAÚDE</h2>
+                <p>O queijo é uma ótima fonte de proteínas de alto valor biológico, cálcio e bactérias que ajudam a regular o intestino. Além disso, ele contém muitos outros nutrientes importantes, como fósforo, potássio, vitaminas D, A, B2 e B12. Por apresentar essas características, esse alimento pode ser consumido em dietas voltadas para uma alimentação balanceada e equilibrada.</p>
+                <p>
+
+                    Principais benefícios do queijo para a saúde <br>
+                    
+                    1. Ótima fonte de cálcio <br>
+                    
+                    2. Controle do peso <br>
+                    
+                    3. Previne o câncer de intestino <br>
+                    
+                    4. Fortalece os ossos e dentes <br>
+                    
+                    5. Reduz o colesterol ruim <br>
+                    
+                    6. Regula o trânsito intestinal</p>
+            </div>
+
+            <div class="col-12 col-md-4 border border-success">
+                <h2 class="bg-success text-center text-white">HARMONIZANDO VINHOS COM QUEIJOS</h2>
+                <p>Queijo e vinho são uma dupla famosa e com muita história para contar: as mais antigas evidências da existência de ambos datam de períodos de 5.000 a 6.500 anos a.C.</p>
+                <p>Para queijos frescos os ideiais são vinhos brancos como o Alvarinho, Greco di Tuffo e Fiano são indicados para essa harmonização.</p>
+                <p>Para queijos frescos com mofo branco são indicados vinhos tintos como como o Pinot Noir, Gamay ou Cabernet Franc.</p>
+                <h2 class="bg-success text-center text-white">HARMONIZAÇÃO COM DOCES</h2>
+                <p>Para quem ainda não experimentou, combinar doce com queijo pode soar estranho. Porém, o equilíbrio adequado na escolha dos componentes das receitas costuma resultar em sobremesas muito agradáveis ao palada</p>
+                <p>Podemos citar: <br>
+
+                    Mascarpone: esse tipo de queijo cremoso pode ser utilizado em diversas receitas já conhecidas, como bolo red velvet, tortas, mousses, sorvetes, além de ser o principal ingrediente do tiramisu, sobremesa tipicamente italiana. <br>
+                    
+                    Parmesão: esse tipo de queijo pode ser utilizado em diversas sobremesas com a presença de uvas verdes, castanhas ou pitangas.</p>
+            </div>
+
+            <div class="col-12 col-md-4 border border-success">
+                <h2 class="bg-success text-center text-white ">CONSUMO EM EXCESSO</h2>
+                <p>Embora o queijo seja uma boa fonte de proteínas, cálcio e fósforo, infelizmente, o seu consumo em excesso pode ter efeitos indesejados. <br>
+
+                    Três consequências: <br>
+                    
+                    1. Problemas no estômago <br>
+                    
+                    comer muito queijo - ou qualquer outro produto lácteo - está associado ao risco de problemas de estômago, como gases, obstipação e inchaço, especialmente para aqueles que podem ser intolerantes à lactose. <br>
+                    
+                    2. Maior risco de doença cardíaca <br>
+                    
+                    Embora o queijo possa fazer parte de uma dieta saudável quando ingerido com moderação, comer grandes porções de queijo com frequência, especialmente queijos com elevado teor de gordura saturada, pode aumentar o risco de doenças cardíacas, principalmente se tiver um histórico familiar de colesterol alto ou doença cardíaca. <br>
+                    
+                    3. Alta ingestão de sódio <br>
+                    
+                    Não há como negar que o queijo é um dos mais deliciosos salgados. O único problema? O queijo é rico em sódio. Assim, se tem pressão alta, é recomendável uma ingestão controlada</p>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- fim novidades -->
+
+    <footer class=" bg-success text-white  text-center p-3">
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <a href="#" class="link-white" style="text-decoration: none; color: aliceblue;">Suporte</a>
+            </div>
+            <div class="col-12 col-md-3">
+                <p>Telefone: 55 (88) 9999-9999</p>
+            </div>
+            <div class="col-12 col-md-3">
+                <p>E-mail: chessecompany@email.com</p>
+            </div>
+            <div class="col-12 col-md-3">
+                <p>© Copyright 2020, Chesse Company</p>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>
